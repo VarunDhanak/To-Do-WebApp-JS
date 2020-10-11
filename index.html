@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>To-Do</title>
+  </head>
+  <body>
+    <header>
+      <h1>To-do List</h1>
+    </header>
+    <form>
+      <input type="text" class="todo-input" placeholder="ADD TO-DO TASK" />
+      <button class="todo-button" type="submit">
+        <!-- <i class="fas fa-plus-square"></i> -->
+        <h4>Add</h4>
+      </button>
+      <div class="select">
+        <select class="filter-todo">
+          <option value="all" class="select-text"><h4>All</h4></option>
+          <option value="completed"><h4>Completed</h4></option>
+          <option value="incompleted"><h4>Incomplete</h4></option>
+        </select>
+      </div>
+    </form>
+    <div class="todo-container">
+      <ul class="todo-list"></ul>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
